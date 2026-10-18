@@ -28,9 +28,15 @@ Rebuilt the control programs for both machines from scratch: machine analysis, I
 - Event timeline for operators.
 - Fault log that works like a small database of alarms and failures.
 - New high-reliability protection devices in the panels against supply overvoltage.
+- - Operator setpoints and HMI screens on a Delta DOP-110IS.
+- **HMI text rewritten:** the original screen had been programmed abroad (China), and its Arabic and English translations were poor and hard for operators to understand. I rewrote all screen texts, alarms and labels in clear Arabic and English so operators can read them correctly.
+- **Electrical drawings redone in EPLAN:** I redrew the control panel schematics from scratch in EPLAN following European standards, which makes the panel much easier to read, troubleshoot and maintain.
 
 ## Technical challenge
 The furnace hydraulic system is driven by a Veichi SD650 servo drive. Its manual had incomplete RS485 information and the manufacturer could not give a correct answer, so I controlled the drive speed with a 0–10 V analog output from the PLC instead. I also had to work out how the hydraulic system operates before I could automate it.
+
+## Electrical design
+Full panel schematics (EPLAN, European standards): see [`schematics/`](schematics/).
 
 ## Images
 <!-- TODO: add files to images/ then uncomment
