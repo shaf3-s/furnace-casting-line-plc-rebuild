@@ -1,6 +1,14 @@
 # ⭐ Furnace and Casting Line PLC Replacement
 
 **Tools:** Delta PLC · Delta DIADesigner (PLC programming, Structured Text) · Delta DIAScreen (HMI)
+**Hardware**
+Part	Model	Qty
+PLC	Delta DVP28SV311T	1
+Digital input modules	DVP-16SM	2
+Digital output modules	DVP-16SN	2
+Thermocouple input module	DVP-04TC	1
+Analog I/O module	DVP-06XA	1
+HMI	Delta DOP-110IS	1
 
 ## Situation
 A grid overvoltage event reached the plant and the panel protections could not react in time. The PLCs of the melting furnace and of the casting line (with robot) were damaged. The manufacturer answered only after a long delay and could not provide the original program files, so restoring the old programs was not possible.
