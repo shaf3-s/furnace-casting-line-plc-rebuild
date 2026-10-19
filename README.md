@@ -47,6 +47,8 @@ Full panel schematics (EPLAN, European standards): see [schematics/](schematics/
 
 ![Arabic HMI home screen with the customer logo blurred](images/hmi-home-ar-blurred-logo.png)
 
+![English HMI home screen with the customer logo blurred](images/hmi-home-en-blurred-logo.png)
+
 *Additional screenshots: trend chart, event timeline, and fault log.*
 
 ## Result
