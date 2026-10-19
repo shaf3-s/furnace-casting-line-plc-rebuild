@@ -65,6 +65,24 @@ The Structured Text example below starts a timer while the exhaust valve is movi
 
 ![PLC Structured Text exhaust valve timer and error logic](images/plc-exhaust-valve-timer-code.png)
 
+### Startup logic and interlocks
+
+This excerpt shows the automatic-mode condition, system on/off toggle, and startup checks that block operation when fan-fault signals are active.
+
+![PLC automatic mode and startup interlocks](images/plc-startup-interlocks-code.png)
+
+### Hydraulic system sequence
+
+This example shows part of the hydraulic door-open sequence, including its start delay and related interlocks.
+
+![PLC hydraulic door sequence](images/plc-hydraulic-door-sequence-code.png)
+
+### Servo speed register mapping
+
+The MOV blocks copy the speed value from D350 to the servo speed registers.
+
+![PLC servo speed MOV blocks](images/plc-servo-speed-mov-blocks.png)
+
 ## PLC communications and hardware
 
 The network overview shows the PLC and two HMI panels connected over Modbus serial and Ethernet. The PLC hardware layout shows the controller and installed I/O modules. The IP address has been blurred in the network screenshot.
