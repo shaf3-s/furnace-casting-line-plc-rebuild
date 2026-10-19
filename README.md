@@ -51,6 +51,12 @@ Full panel schematics (EPLAN, European standards): see [schematics/](schematics/
 
 *Additional screenshots: trend chart, event timeline, and fault log.*
 
+### PLC code example: exhaust valve timer
+
+The Structured Text example below starts a timer while the exhaust valve is moving and sets an error if it does not finish within the configured interval.
+
+![PLC Structured Text exhaust valve timer and error logic](images/plc-exhaust-valve-timer-code.png)
+
 ## Result
 
 | | Before | After |
