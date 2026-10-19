@@ -57,6 +57,14 @@ The Structured Text example below starts a timer while the exhaust valve is movi
 
 ![PLC Structured Text exhaust valve timer and error logic](images/plc-exhaust-valve-timer-code.png)
 
+## PLC communications and hardware
+
+The network overview shows the PLC and two HMI panels connected over Modbus serial and Ethernet. The PLC hardware layout shows the controller and installed I/O modules. The IP address has been blurred in the network screenshot.
+
+![PLC and HMI network overview with IP address blurred](images/plc-hmi-network-redacted-ip.png)
+
+![PLC hardware and I/O module layout](images/plc-hardware-module-layout.png)
+
 ## Result
 
 | | Before | After |
