@@ -49,7 +49,15 @@ Full panel schematics (EPLAN, European standards): see [schematics/](schematics/
 
 ![English HMI home screen with the customer logo blurred](images/hmi-home-en-blurred-logo.png)
 
-*Additional screenshots: trend chart, event timeline, and fault log.*
+![Arabic HMI trend chart](images/hmi-trend-screen-ar-blurred-logo.png)
+
+*Trend chart interface; no live readings are shown because the furnace is currently stopped.*
+
+![HMI event log](images/hmi-event-log-ar-blurred-logo.png)
+
+![HMI I/O status screen](images/hmi-io-status-ar-blurred-logo.png)
+
+![HMI manual controls screen](images/hmi-manual-controls-ar-blurred-logo.png)
 
 ### PLC code example: exhaust valve timer
 
